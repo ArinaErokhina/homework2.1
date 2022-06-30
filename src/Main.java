@@ -11,5 +11,13 @@ public class Main {
 
         ServiceStation station = new ServiceStation();
         ServiceStation.serviceInfo(car);
+        ServiceStation.serviceInfo(bicycle2);
+        ServiceStation.serviceInfo(truck);
+
+        car.check();
+        bicycle2.check();
+        truck2.check();
+
     }
+
 }
